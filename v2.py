@@ -32,7 +32,7 @@ def connect_db():
     return pymysql.connect(
     host="mysql104.1gb.ru",
     user="gb_camera",
-    password="FTwaEzf-xNdL",
+    password="",
     database = "gb_camera",
     cursorclass = pymysql.cursors.DictCursor
     )
